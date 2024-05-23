@@ -1,0 +1,58 @@
+{
+  "product": [
+    {
+      "brand": "MY B",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "1000",
+      "price": " 2000",
+      "discount": "50%",
+      "name": "my_name",
+      "id": "1"
+    },
+    {
+      "id": "4",
+      "brand": "MY C",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "1000",
+      "price": " 2000",
+      "discount": "50%",
+      "name": "my_name"
+    },
+    {
+      "brand": "MY D",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "1000",
+      "price": "2000",
+      "discount": "50%",
+      "name": "my_name",
+      "id": "2"
+    },
+    {
+      "brand": "MY",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "1000",
+      "price": " 2000",
+      "discount": "50%",
+      "name": "my_name",
+      "id": "3"
+    },
+    {
+      "id": "350a",
+      "brand": "ss",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "111",
+      "price": "111",
+      "discount": "11%",
+      "name": "zz"
+    },
+    {
+      "id": "3691",
+      "brand": "MY C",
+      "image": "https://source.unsplash.com/random",
+      "current_price": "",
+      "price": "",
+      "discount": "",
+      "name": "xcxcxasasqqsaddf"
+    }
+  ]
+}

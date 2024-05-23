@@ -1,0 +1,10 @@
+<div class="max-w-full flex items-center gap-4" style="width: 1200px">
+  <mat-form-field subscriptSizing="dynamic" class="!w-8/12" appearance="outline">
+    <input matInput placeholder="search"   [(ngModel)]="searchText" >
+<!--    <input matInput placeholder="search" (change)="inputChange($event)" name="search" [(ngModel)]="text" >-->
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="onSearch()"> search</button>
+  <button>
+  <mat-icon aria-hidden="true"  fontIcon="add" routerLink="/add-product"></mat-icon>
+  </button>
+</div>

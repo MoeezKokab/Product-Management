@@ -1,0 +1,32 @@
+<div class="p-8 mt-8 flex justify-center">
+  <form [formGroup]="productForm"  class="sdow border w-6/12 p-4">
+    <div class="flex flex-col">
+      <mat-form-field class="w-full">
+        <input matInput name="name" formControlName="name"  placeholder="enter the name"/>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input matInput name="brand" formControlName="brand"   placeholder="enter the brand"/>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input matInput name="image"  formControlName="image"   placeholder="enter image"/>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input matInput name="current_price" formControlName="current_price"   placeholder="enter current_price"/>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input matInput name="price"  formControlName="price"   placeholder="enter price"/>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input matInput name="discount" formControlName="discount"   placeholder="enter the discount"/>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="onPress()"> Add</button>
+
+    </div>
+  </form>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+<mat-card class="shadow-amber-50">
+  <img mat-card-image  [src]="product.image">
+  <div class="p-4">
+    <h1>{{ product.name }}</h1>
+    <h2> {{ product.brand | uppercase }}</h2>
+    <div class="flex gap-2">
+      <span>{{ product.current_price | currency }}</span>
+      <span><s>{{ product.price | currency}}</s></span>
+      <span> {{ product.discount }} off </span>
+
+    </div>
+    <div class="flex justify-center pe-5">
+      <button mat-raised-button color="accent"  [routerLink]="'/edit-product/'+ product.id" >Edit</button>
+    </div>
+
+  </div>
+
+</mat-card>
+

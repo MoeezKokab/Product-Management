@@ -1,0 +1,20 @@
+<mat-card class="shadow-amber-50">
+  <img mat-card-image class="!h-70" [src]="product.image" alt="Photo of a Shiba Inu">
+  <div class="p-4">
+    <h1>{{ product.name }}</h1>
+    <h2> {{ product.brand }}</h2>
+    <div class="flex gap-2">
+      <span>{{ product.current_price }}</span>
+      <span><s>{{ product.price }}</s></span>
+      <span> {{ product.discount }} off </span>
+
+    </div>
+    <div class="flex justify-center pe-5">
+      <button mat-raised-button color="accent" (click)="DetailFunction()" >Detail</button>
+    </div>
+
+  </div>
+
+</mat-card>
+
+
